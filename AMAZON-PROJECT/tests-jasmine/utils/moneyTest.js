@@ -1,6 +1,6 @@
-import { formalCurrency } from '../scripts/utils/money.js';
+import { formalCurrency } from '../../scripts/utils/money.js';
 
-describe('twst suite: formalCurrency', () => {
+describe('test suite: formalCurrency', () => {
     it('converts cents into dollers', () => {
         expect(formalCurrency(2095)).toEqual('20.95');
     });

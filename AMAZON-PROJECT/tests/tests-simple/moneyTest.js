@@ -1,4 +1,4 @@
-import { formalCurrency } from '../scripts/utils/money.js';
+import { formalCurrency } from '../../scripts/utils/money.js';
 
 console.log('test suite: formalCurrency')
 
